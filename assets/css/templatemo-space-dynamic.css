@@ -827,9 +827,9 @@ Banner Style
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 120px 0px 120px 0px;
+  padding: 110px 0px 120px 0px;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .main-banner:after {
@@ -860,14 +860,14 @@ Banner Style
 
 .main-banner .left-content h1 {
   text-transform: uppercase;
-  font-size: 40px;
+  font-size: 35px;
   color: #fe3f40;
   margin-bottom: 15px;
 }
 
 .main-banner .left-content h1 em{
   color: #03a4ed;
-  font-size: 30px;
+  font-size: 25px;
   font-style: normal;
 }
 
@@ -1423,7 +1423,7 @@ responsive
 
 @media (max-width: 992px) {
   .main-banner {
-    padding-top: 196px;
+    padding-top: 125px;
   }
   .main-banner .left-content {
     margin-right: 0px;
