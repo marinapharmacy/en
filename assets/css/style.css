@@ -659,7 +659,8 @@ div#preloader {
 .about-area2 h3 {
   color: #c01c1c;
   font-size: 36px;
-  margin: 50px;  
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .about-area2 p {
