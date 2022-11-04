@@ -91,7 +91,7 @@ a {
 }
 
 a:hover {
-  color: #59affd;
+  color: #0066cc;
   text-decoration: none;
 }
 
@@ -119,7 +119,7 @@ body {
   margin-top: 20px;
   display: block;
   text-align: center;
-  background-color: #59affd;
+  background-color: #0066cc;
   margin-left: auto;
   margin-right: auto
 }
@@ -129,7 +129,7 @@ body {
   margin-top: 20px;
   display: block;
   text-align: center;
-  background-color: #59affd;
+  background-color: #0066cc;
   margin-left: auto;
   margin-right: auto
 }
@@ -140,7 +140,7 @@ body {
 
 .quote {
   text-align: center;
-  color: #59affd;
+  color: #0066cc;
   font-style: italic;
   font-size: 1.6em;
   line-height:1.4em
@@ -155,7 +155,7 @@ body {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #59affd;
+  background: #0066cc;
   width: 40px;
   height: 40px;
   transition: all 0.4s;
@@ -201,12 +201,12 @@ div#preloader {
 }
 
 ::-moz-selection {
-  background: #59affd;
+  background: #0066cc;
   text-shadow: none;
 }
 
 ::selection {
-  background: #59affd;
+  background: #0066cc;
   text-shadow: none;
 }
 
@@ -256,7 +256,7 @@ div#preloader {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  background: #59affd;
+  background: #0066cc;
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
@@ -314,7 +314,7 @@ div#preloader {
   font-weight: bold;
 }
 #header .logo h1 span {
-  color: #59affd;
+  color: #0066cc;
 }
 #header .logo h1 a, #header .logo h1 a:hover {
   color: #fff;
@@ -394,7 +394,7 @@ div#preloader {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #59affd;
+  color: #0066cc;
 }
 .navbar .dropdown ul {
   display: block;
@@ -423,7 +423,7 @@ div#preloader {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #59affd;
+  color: #0066cc;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -505,7 +505,7 @@ div#preloader {
   color: #0d2529;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #59affd;
+  color: #0066cc;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -531,7 +531,7 @@ div#preloader {
   font-size: 12px;
 }
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #59affd;
+  color: #0066cc;
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
@@ -588,7 +588,7 @@ div#preloader {
   font-weight: 700;
 }
 #hero h2 span {
-  color: #59affd;
+  color: #0066cc;
 }
 @media (max-width: 768px) {
   #hero h2 {
@@ -664,11 +664,11 @@ div#preloader {
   transition: 0.5s;
   margin: 10px;
   color: #fff;
-  background: #59affd;
+  background: #0066cc;
 }
 #hero .btn-get-started:hover {
   background: #fff;
-  color: #59affd;
+  color: #0066cc;
 }
 
 /*--------------------------------------------------------------
@@ -720,7 +720,7 @@ div#preloader {
 }
 
 .single-well ul li i {
-  color: #59affd;
+  color: #0066cc;
   margin-right: 5px;
   font-size: 18px;
 }
@@ -750,7 +750,7 @@ div#preloader {
 }
 
 .services-details:hover h4, .services-details:hover .services-icon {
-  color: #59affd;
+  color: #0066cc;
 }
 
 .row.second-row {
@@ -853,7 +853,7 @@ div#preloader {
 }
 
 .email-news .email_button > button:hover {
-  background: #59affd;
+  background: #0066cc;
   border: 1px solid #fff;
   color: #fff;
 }
@@ -863,7 +863,7 @@ div#preloader {
 }
 
 .team-left-icon ul li a:hover {
-  color: #59affd;
+  color: #0066cc;
   background: #fff;
   border: 2px solid #fff;
 }
@@ -944,8 +944,8 @@ div#preloader {
 
 .team-social-icon ul li a:hover {
   color: #fff;
-  border: 1px solid #59affd;
-  background: #59affd;
+  border: 1px solid #0066cc;
+  background: #0066cc;
 }
 
 .team-content {
@@ -989,7 +989,7 @@ div#preloader {
 }
 
 .work-left-text {
-  background: #59affd none repeat scroll 0 0;
+  background: #0066cc none repeat scroll 0 0;
 }
 
 .work-right-text {
@@ -1055,8 +1055,8 @@ div#preloader {
   border: 1px solid #444;
 }
 #portfolio-flters li:hover, #portfolio-flters li.filter-active {
-  border-color: #59affd;
-  background: #59affd;
+  border-color: #0066cc;
+  background: #0066cc;
   color: #fff;
 }
 #portfolio-flters li:last-child {
@@ -1214,7 +1214,7 @@ div#preloader {
 }
 
 .pri_table_list li.check i {
-  color: #59affd;
+  color: #0066cc;
   line-height: 0;
   font-size: 24px;
   margin-right: 5px;
@@ -1266,7 +1266,7 @@ div#preloader {
 }
 
 .saleon {
-  background: #59affd none repeat scroll 0 0;
+  background: #0066cc none repeat scroll 0 0;
   color: #fff;
   font-size: 13px;
   font-weight: 700;
@@ -1295,8 +1295,8 @@ div#preloader {
 }
 
 .active > button {
-  background: #59affd none repeat scroll 0 0;
-  border: 1px solid #59affd;
+  background: #0066cc none repeat scroll 0 0;
+  border: 1px solid #0066cc;
   color: #fff;
   transition: 0.4s;
 }
@@ -1382,7 +1382,7 @@ div#preloader {
   opacity: 1;
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #59affd;
+  background-color: #0066cc;
 }
 @media (min-width: 992px) {
   .testimonials .testimonial-item p {
@@ -1394,7 +1394,7 @@ div#preloader {
 # Quote
 --------------------------------------------------------------*/
 .suscribe-area {
-  background: #59affd none repeat scroll 0 0;
+  background: #0066cc none repeat scroll 0 0;
   padding: 30px 0;
 }
 
@@ -1416,7 +1416,7 @@ div#preloader {
 .sus-btn {
   background: #fff none repeat scroll 0 0;
   border: 2px solid #fff;
-  color: #59affd;
+  color: #0066cc;
   display: inline-block;
   font-size: 16px;
   font-weight: 700;
@@ -1428,7 +1428,7 @@ div#preloader {
 }
 
 .sus-btn:hover {
-  background: #59affd none repeat scroll 0 0;
+  background: #0066cc none repeat scroll 0 0;
   border: 2px solid #fff;
   color: #fff;
 }
@@ -1457,7 +1457,7 @@ div#preloader {
   line-height: 56px;
   border-radius: 50%;
   margin-bottom: 30px;
-  color: #59affd;
+  color: #0066cc;
 }
 
 .single-icon p {
@@ -1521,7 +1521,7 @@ div#preloader {
   font-size: 14px;
 }
 .php-email-form input:focus, .php-email-form textarea:focus {
-  border-color: #59affd;
+  border-color: #0066cc;
 }
 .php-email-form input {
   padding: 10px 15px;
@@ -1666,7 +1666,7 @@ div#preloader {
 }
 
 .single-blog .ready-btn:hover {
-  border: 1px solid #59affd;
+  border: 1px solid #0066cc;
   color: #fff;
 }
 
@@ -1701,7 +1701,7 @@ div#preloader {
 }
 
 .search-option button:hover {
-  color: #59affd;
+  color: #0066cc;
 }
 
 .left-blog h4 {
@@ -1759,8 +1759,8 @@ div#preloader {
 
 .ready-btn:hover {
   color: #fff;
-  background: #59affd;
-  border: 1px solid #59affd;
+  background: #0066cc;
+  border: 1px solid #0066cc;
   text-decoration: none;
 }
 
@@ -1778,7 +1778,7 @@ div#preloader {
 }
 
 .pst-content p a:hover, .left-blog ul li a:hover {
-  color: #59affd;
+  color: #0066cc;
 }
 
 .blog-page .single-blog {
@@ -1847,7 +1847,7 @@ div#preloader {
 }
 
 .entry-meta span a:hover {
-  color: #59affd;
+  color: #0066cc;
 }
 
 .post-information .entry-meta {
@@ -1869,7 +1869,7 @@ div#preloader {
 
 .entry-content blockquote {
   background: #fff none repeat scroll 0 0;
-  border-left: 5px solid #59affd;
+  border-left: 5px solid #0066cc;
   font-size: 17.5px;
   font-style: italic;
   margin: 0 0 20px 40px;
@@ -1877,8 +1877,8 @@ div#preloader {
 }
 
 .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
-  background-color: #59affd;
-  border-color: #59affd;
+  background-color: #0066cc;
+  border-color: #0066cc;
   color: #fff;
   cursor: default;
   z-index: 3;
@@ -1918,8 +1918,8 @@ div#preloader {
 }
 
 .sharing-icon a:hover {
-  color: #59affd;
-  border: 1px solid #59affd;
+  color: #0066cc;
+  border: 1px solid #0066cc;
 }
 
 .single-blog .author-avatar {
@@ -2044,7 +2044,7 @@ span.email-notes {
 
 .comment-respond input[type=submit] {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  border: 1px solid #59affd;
+  border: 1px solid #0066cc;
   border-radius: 20px;
   box-shadow: none;
   color: #444;
@@ -2066,13 +2066,13 @@ span.email-notes {
 }
 
 .comments-content-wrap span a:hover {
-  color: #59affd;
+  color: #0066cc;
 }
 
 .comment-respond input[type=submit]:hover {
-  border: 1px solid #59affd;
+  border: 1px solid #0066cc;
   color: #fff;
-  background: #59affd;
+  background: #0066cc;
 }
 
 .single-blog .blog-pagination {
@@ -2115,7 +2115,7 @@ span.email-notes {
 }
 
 .footer-logo h2 span {
-  color: #59affd;
+  color: #0066cc;
 }
 
 .footer-icons ul li {
@@ -2153,7 +2153,7 @@ span.email-notes {
 }
 
 .footer-contacts p span {
-  color: #59affd;
+  color: #0066cc;
   font-weight: 700;
 }
 
@@ -2167,8 +2167,8 @@ span.email-notes {
 }
 
 .popular-tag ul li a:hover, .footer-icons ul li a:hover {
-  background: #59affd;
-  border: 1px solid #59affd;
+  background: #0066cc;
+  border: 1px solid #0066cc;
   color: #fff;
 }
 
@@ -2194,7 +2194,7 @@ span.email-notes {
 
 .copyright-text a:hover {
   text-decoration: underline;
-  color: #59affd;
+  color: #0066cc;
 }
 
 .copyright-text a {
@@ -2207,7 +2207,7 @@ span.email-notes {
 }
 
 .copyright a, .credits a {
-  color: #59affd;
+  color: #0066cc;
 }
 
 .credits {
