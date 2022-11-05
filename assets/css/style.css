@@ -258,14 +258,14 @@ div#preloader {
 #topbar {
   background: #0066cc;
   height: 40px;
-  font-size: 16px;
+  font-size: 15px;
   transition: all 0.5s;
   color: #fff;
   padding: 0;
   font-size:16px
 }
 #topbar img {
-  max-width:14%;
+  max-width:16%;
   height: 32px;
   margin-right:5px
 }
