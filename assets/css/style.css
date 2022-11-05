@@ -258,11 +258,15 @@ div#preloader {
 #topbar {
   background: #0066cc;
   height: 40px;
-  font-size: 14px;
+  font-size: 16px;
   transition: all 0.5s;
   color: #fff;
   padding: 0;
   font-size:16px
+}
+#topbar img {
+  max-height:32px;
+  margin-right:5px
 }
 #topbar .contact-info i {
   font-style: normal;
