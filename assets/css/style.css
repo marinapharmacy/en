@@ -304,15 +304,15 @@ div#preloader {
   height: 100px;
   margin-top: 40px;
   position: fixed;
-
-  
-  
-  
+}
+#header.header-transparent {
+  background: transparent;
 }
 #header.header-scrolled {
   background: rgba(0, 0, 0, 0.8);
+  padding:0;
   height: 85px;
-  margin-top: 0;
+  box-shadow: 1px 1px 7px 2px #888888;
 }
 #header .logo h1 {
   font-size: 20px;
@@ -329,10 +329,10 @@ div#preloader {
   text-decoration: none;
 }
 #header .logo img {
+  height: 40px;
   padding: 0;
   margin: 5px;
   margin-left: 18px;
-  max-height: 40px;
 }
 @media (max-width: 768px) {
   #header {
