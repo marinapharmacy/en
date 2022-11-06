@@ -272,6 +272,15 @@ div#preloader {
   font-style: normal;
   color: #fff
 }
+#topbar .contact-info span {
+  transition: all 0.5s;
+  color: #fff
+}
+#topbar .contact-info span:hover {
+  text-decoration-line:underline;
+  color:yellow;
+  transition: all 0.5s;
+}
 #topbar .contact-info i a, #topbar .contact-info i span {
   padding-left: 5px;
   color: #fff
@@ -282,7 +291,6 @@ div#preloader {
 }
 #topbar .contact-info i a:hover {
   color: #fff;
-  text-decoration: underline
 }
 #topbar .social-links a {
   color: #fff;
@@ -2100,6 +2108,10 @@ span.email-notes {
   letter-spacing: 2px;
   padding-bottom: 10px;
   text-transform: uppercase;
+}
+
+.footer-head h4 span{
+  color: #0066cc;
 }
 
 .footer-logo {
