@@ -453,7 +453,6 @@ div#preloader {
     left: -100%;
   }
 }
-
 /**
 * Mobile Navigation 
 */
@@ -465,12 +464,10 @@ div#preloader {
   line-height: 0;
   transition: 0.5s;
 }
-
 @media (max-width: 991px) {
   .mobile-nav-toggle {
     display: block;
   }
-
   .navbar ul {
     display: none;
   }
@@ -495,8 +492,8 @@ div#preloader {
   display: block;
   position: absolute;
   top: 55px;
-  right: 15px;
   bottom: 15px;
+  right: 15px;
   left: 15px;
   padding: 10px 0;
   background-color: #fff;
