@@ -1,6 +1,17 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@font-face {
+  font-family:'al-jazeera-arabic-bold';
+  src: url('https://the4z.com/assets/css/fonts/al-jazeera-arabic-bold.woff') format('woff'),
+      url('https://the4z.com/assets/css/fonts/al-jazeera-arabic-bold.woff2') format('woff2'),
+      url('https://the4z.com/assets/css/fonts/al-jazeera-arabic-bold.otf') format('opentype'),
+      url('https://the4z.com/assets/css/fonts/al-jazeera-arabic-bold.eot') format('embedded-opentype'),
+      url('https://the4z.com/assets/css/fonts/al-jazeera-arabic-bold.ttf/') format('truetype');
+  font-style: normal;
+  font-display: swap;
+}
+
 html, body {
   height: 100%;
 }
@@ -349,7 +360,7 @@ div#preloader {
 }
 
 .header-bg {
-  background: url(../img/background/page-header.jpg);
+  background: url(../img/background/page-header.gif);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -369,6 +380,13 @@ div#preloader {
     background-attachment: fixed;
   }
 }
+@media (max-width: 1025px) {
+  .header-bg {
+    background-size: contain;
+    margin-top: 85px;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -378,6 +396,7 @@ div#preloader {
 */
 .navbar {
   padding: 0;
+  font-family: 'Poppins', 'al-jazeera-arabic-bold', sans-serif
 }
 .navbar ul {
   margin: 0;
@@ -1148,27 +1167,40 @@ div#preloader {
   width: 100%;
 }
 
-.project-dec h4 {
-  margin-bottom: 5px;
-}
-
-.project-dec h4:hover {
-  color: #fff;
-}
 
 .project-dec h4 {
   color: #ddd;
   font-size: 24px;
   margin-top: -45px;
+  margin-bottom: 5px;
   padding-top: 50%;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 800;
 }
 
+.project-dec h4:hover {
+  color: #fff;
+}
+
 .project-dec span {
   color: #ddd;
   font-size: 13px;
+}
+
+.project-dec2 h4 {
+  color: #ddd;
+  font-size: 24px;
+  margin-top: -45px;
+  margin-bottom: 5px;
+  padding-top: 25%;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.project-dec2 h4:hover {
+  color: #fff;
 }
 
 .project-action-btn {
@@ -2493,7 +2525,8 @@ span.email-notes {
   }
 
   .page-area .slider-content {
-    padding: 500px 0;
+    padding: 0;
+    margin-top: -85px;
   }
 
   .search-option input {
