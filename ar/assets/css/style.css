@@ -274,10 +274,11 @@ div#preloader {
 #topbar img {
   max-width:16%;
   height: 32px;
-  margin-left:5px
+  margin-left:10px
 }
 #topbar .contact-info i {
   font-style: normal;
+  padding-left: 10px;
   color: #fff
 }
 #topbar .contact-info span {
@@ -290,7 +291,6 @@ div#preloader {
   transition: all 0.5s;
 }
 #topbar .contact-info i a, #topbar .contact-info i span {
-  padding-left: 5px;
   color: #fff
 }
 #topbar .contact-info i a {
