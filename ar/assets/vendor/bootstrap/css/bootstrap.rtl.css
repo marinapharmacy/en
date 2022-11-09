@@ -436,7 +436,7 @@ legend + * {
 [type="url"],
 [type="email"],
 [type="number"] {
-  direction: ltr;
+  direction: rtl;
 }
 ::-webkit-search-decoration {
   -webkit-appearance: none;

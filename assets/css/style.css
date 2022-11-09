@@ -704,6 +704,7 @@ div#preloader {
 --------------------------------------------------------------*/
 .about-area {
   background-color: #f9f9f9;
+  text-align: left;
 }
 
 .about-area h3 {
@@ -721,7 +722,7 @@ div#preloader {
 
 .about-area2 {
   background-color: #fff;
-  text-align: center;
+  text-align: left;
 }
 
 .about-area2 h3 {
@@ -729,6 +730,7 @@ div#preloader {
   font-size: 36px;
   margin-top: 50px;
   margin-bottom: 50px;
+  text-align: center;
 }
 
 .about-area2 p {
@@ -798,6 +800,7 @@ div#preloader {
 .single-services > p {
   color: #333;
   font-size: 14px;
+  text-align: left;
 }
 
 /*--------------------------------------------------------------

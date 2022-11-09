@@ -704,6 +704,7 @@ div#preloader {
 --------------------------------------------------------------*/
 .about-area {
   background-color: #f9f9f9;
+  text-align: right;
 }
 
 .about-area h3 {
@@ -721,7 +722,7 @@ div#preloader {
 
 .about-area2 {
   background-color: #fff;
-  text-align: center;
+  text-align: right;
 }
 
 .about-area2 h3 {
@@ -729,6 +730,7 @@ div#preloader {
   font-size: 36px;
   margin-top: 50px;
   margin-bottom: 50px;
+  text-align: center;
 }
 
 .about-area2 p {
@@ -749,7 +751,7 @@ div#preloader {
 
 .single-well ul li i {
   color: #0066cc;
-  margin-right: 5px;
+  margin-left: 5px;
   font-size: 18px;
 }
 
@@ -798,6 +800,7 @@ div#preloader {
 .single-services > p {
   color: #333;
   font-size: 14px;
+  text-align: right;
 }
 
 /*--------------------------------------------------------------
@@ -2128,6 +2131,7 @@ span.email-notes {
 .footer-area {
   padding: 40px 0;
   background: #f9f9f9;
+  text-align: right;
 }
 
 .footer-head p {
