@@ -196,7 +196,7 @@ ul {
 }
 
 input, select, textarea, input[type=text], input[type=date], input[type=url], input[type=email], input[type=password], input[type=tel], button, button[type=submit] {
-  -moz-appearance: none;
+  appearance: none;
   box-shadow: none !important;
 }
 
@@ -326,13 +326,12 @@ div#preloader {
 #header.header-scrolled {
   background: rgba(0, 0, 0, 0.8);
   margin:0;
-  height: 100px;
+  height: 80px;
   box-shadow: 1px 1px 7px 2px #888888;
 }
 #header .logo h1 {
+  margin-top:10px;
   font-size: 28px;
-  margin: 0;
-  padding: 0;
   line-height: 1;
   font-weight: bold;
 }
@@ -344,18 +343,21 @@ div#preloader {
   text-decoration: none;
 }
 #header .logo img {
-  padding: 0;
-  margin: 5px;
-  margin-left: 0px;
-  max-height: 40px;
+  float:left;
+  margin-top:10px;
+  margin-right:10px;
+  max-height: 60px
 }
-@media (max-width: 768px) {
+@media (max-width: 1025px) {
   #header {
-    height: 85px;
+    height: 60px;
     background: rgba(0, 0, 0, 0.8);
   }
   #header .logo h1 {
     font-size: 20px;
+  }
+  #header .logo img {
+    max-height: 40px
   }
 }
 .header-bg {
@@ -384,9 +386,7 @@ div#preloader {
     background-size: contain;
     margin-top: 85px;
   }
-
 }
-
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -396,7 +396,7 @@ div#preloader {
 */
 .navbar {
   padding: 0;
-  font-family: 'Poppins', 'al-jazeera-arabic-bold', sans-serif
+  font-family: 'al-jazeera-arabic-bold', 'open sans', sans-serif
 }
 .navbar ul {
   margin: 0;
@@ -1683,14 +1683,14 @@ div#preloader {
 }
 
 .post-img {
-  display: inline-block;
+  display: block;
   float: left;
   padding: 0 5px;
   width: 35%;
 }
 
 .pst-content {
-  display: inline-block;
+  display: block;
   float: left;
   width: 65%;
 }
@@ -1817,7 +1817,7 @@ div#preloader {
 }
 
 .sharing-icon {
-  display: inline-block;
+  display: block;
   float: right;
   padding: 13px 10px;
 }
@@ -1892,7 +1892,7 @@ div#preloader {
 }
 
 .author-avatar {
-  display: inline-block;
+  display: block;
   float: left;
   width: 10%;
 }

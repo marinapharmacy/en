@@ -372,6 +372,7 @@ button,
 [type=reset],
 [type=submit] {
   -webkit-appearance: button;
+  appearance: button;
 }
 button:not(:disabled),
 [type=button]:not(:disabled),
@@ -430,6 +431,7 @@ legend + * {
 [type=search] {
   outline-offset: -2px;
   -webkit-appearance: textfield;
+  appearance: textfield;
 }
 
 /* rtl:raw:
@@ -442,6 +444,7 @@ legend + * {
 */
 ::-webkit-search-decoration {
   -webkit-appearance: none;
+  appearance: none;
 }
 
 ::-webkit-color-swatch-wrapper {
@@ -459,6 +462,7 @@ legend + * {
 ::-webkit-file-upload-button {
   font: inherit;
   -webkit-appearance: button;
+  appearance: button;
 }
 
 output {
@@ -2314,8 +2318,8 @@ progress {
   border-width: 1px 0;
 }
 .form-control-plaintext.form-control-sm, .form-control-plaintext.form-control-lg {
-  padding-right: 0;
   padding-left: 0;
+  padding-right: 0;
 }
 
 .form-control-sm {
@@ -2479,7 +2483,7 @@ textarea.form-control-lg {
   -moz-appearance: none;
   appearance: none;
   -webkit-print-color-adjust: exact;
-  color-adjust: exact;
+  print-color-adjust: exact;
 }
 .form-check-input[type=checkbox] {
   border-radius: 0.25em;
@@ -4037,14 +4041,14 @@ textarea.form-control-lg {
 }
 .navbar-nav {
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
 }
 .navbar-nav .nav-link {
-  padding-right: 0;
   padding-left: 0;
+  padding-right: 0;
 }
 .navbar-nav .dropdown-menu {
   position: static;
@@ -4111,8 +4115,8 @@ textarea.form-control-lg {
     position: absolute;
   }
   .navbar-expand-sm .navbar-nav .nav-link {
-    padding-right: 0.5rem;
     padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
   .navbar-expand-sm .navbar-nav-scroll {
     overflow: visible;
@@ -4134,8 +4138,8 @@ textarea.form-control-lg {
     flex-grow: 1;
     visibility: visible !important;
     background-color: transparent;
-    border-right: 0;
     border-left: 0;
+    border-right: 0;
     transition: none;
     transform: none;
   }
@@ -4164,8 +4168,8 @@ textarea.form-control-lg {
     position: absolute;
   }
   .navbar-expand-md .navbar-nav .nav-link {
-    padding-right: 0.5rem;
     padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
   .navbar-expand-md .navbar-nav-scroll {
     overflow: visible;
@@ -4187,8 +4191,8 @@ textarea.form-control-lg {
     flex-grow: 1;
     visibility: visible !important;
     background-color: transparent;
-    border-right: 0;
     border-left: 0;
+    border-right: 0;
     transition: none;
     transform: none;
   }
@@ -4217,8 +4221,8 @@ textarea.form-control-lg {
     position: absolute;
   }
   .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 0.5rem;
     padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
   .navbar-expand-lg .navbar-nav-scroll {
     overflow: visible;
@@ -4240,8 +4244,8 @@ textarea.form-control-lg {
     flex-grow: 1;
     visibility: visible !important;
     background-color: transparent;
-    border-right: 0;
     border-left: 0;
+    border-right: 0;
     transition: none;
     transform: none;
   }
@@ -4270,8 +4274,8 @@ textarea.form-control-lg {
     position: absolute;
   }
   .navbar-expand-xl .navbar-nav .nav-link {
-    padding-right: 0.5rem;
     padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
   .navbar-expand-xl .navbar-nav-scroll {
     overflow: visible;
@@ -4293,8 +4297,8 @@ textarea.form-control-lg {
     flex-grow: 1;
     visibility: visible !important;
     background-color: transparent;
-    border-right: 0;
     border-left: 0;
+    border-right: 0;
     transition: none;
     transform: none;
   }
@@ -4323,8 +4327,8 @@ textarea.form-control-lg {
     position: absolute;
   }
   .navbar-expand-xxl .navbar-nav .nav-link {
-    padding-right: 0.5rem;
     padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
   .navbar-expand-xxl .navbar-nav-scroll {
     overflow: visible;
