@@ -326,7 +326,7 @@ div#preloader {
 #header.header-scrolled {
   background: rgba(0, 0, 0, 0.8);
   margin:0;
-  height: 85px;
+  height: 100px;
   box-shadow: 1px 1px 7px 2px #888888;
 }
 #header .logo h1 {
@@ -346,7 +346,7 @@ div#preloader {
 #header .logo img {
   padding: 0;
   margin: 5px;
-  margin-left: 18px;
+  margin-left: 0px;
   max-height: 40px;
 }
 @media (max-width: 768px) {
