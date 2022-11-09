@@ -330,7 +330,7 @@ div#preloader {
   box-shadow: 1px 1px 7px 2px #888888;
 }
 #header .logo h1 {
-  font-size: 19px;
+  font-size: 28px;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -355,10 +355,9 @@ div#preloader {
     background: rgba(0, 0, 0, 0.8);
   }
   #header .logo h1 {
-    font-size: 28px;
+    font-size: 20px;
   }
 }
-
 .header-bg {
   background: url(../img/background/page-header.gif);
   background-repeat: no-repeat;
@@ -385,6 +384,7 @@ div#preloader {
     background-size: contain;
     margin-top: 85px;
   }
+
 }
 
 
