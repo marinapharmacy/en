@@ -333,7 +333,7 @@ div#preloader {
   text-align: right;
 }
 #header .logo h1 span {
-  color: #0066cc;
+  color: #568fc7;
 }
 #header .logo h1 a, #header .logo h1 a:hover {
   color: #fff;
@@ -409,8 +409,9 @@ div#preloader {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0 10px 30px;
+  padding: 10px 25px 10px 0;
   font-size: 15px;
+  font-weight: 700;
   color: #fff;
   white-space: nowrap;
   transition: 0.3s;
@@ -421,7 +422,7 @@ div#preloader {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #0066cc;
+  color: #568fc7;
 }
 .navbar .dropdown ul {
   display: block;
@@ -509,7 +510,7 @@ div#preloader {
 .navbar-mobile .mobile-nav-toggle {
   position: absolute;
   top: 15px;
-  right: 15px;
+  left: 15px;
 }
 .navbar-mobile ul {
   display: block;
@@ -611,7 +612,7 @@ div#preloader {
   font-size: 24px;
 }
 #hero h2 span {
-  color: #0066cc;
+  color: #568fc7;
 }
 @media (max-width: 768px) {
   #hero h2 {

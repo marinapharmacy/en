@@ -336,7 +336,7 @@ div#preloader {
   font-weight: bold;
 }
 #header .logo h1 span {
-  color: #0066cc;
+  color: #568fc7;
 }
 #header .logo h1 a, #header .logo h1 a:hover {
   color: #fff;
@@ -412,9 +412,9 @@ div#preloader {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0 10px 30px;
+  padding: 10px 0 10px 25px;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 700;
   color: #fff;
   white-space: nowrap;
   transition: 0.3s;
@@ -425,7 +425,7 @@ div#preloader {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #0066cc;
+  color: #568fc7;
 }
 .navbar .dropdown ul {
   display: block;
@@ -616,7 +616,7 @@ div#preloader {
   font-weight: 700;
 }
 #hero h2 span {
-  color: #0066cc;
+  color: #568fc7;
 }
 @media (max-width: 768px) {
   #hero h2 {
