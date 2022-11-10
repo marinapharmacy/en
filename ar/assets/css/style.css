@@ -1235,7 +1235,7 @@ div#preloader {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../../../assets/img/background/slider-bg.jpg") no-repeat;
+  background: url("../../../assets/img/background/map.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -1262,6 +1262,10 @@ div#preloader {
   border: 6px solid rgba(255, 255, 255, 0.15);
   margin: 0 auto;
 }
+.testimonials h2 {
+  color: #fff;
+}
+
 .testimonials .testimonial-item h3 {
   font-size: 20px;
   margin: 10px 0 5px 0;
@@ -1293,7 +1297,7 @@ div#preloader {
   color: #eee;
 }
 .testimonials .swiper-pagination {
-  margin-top: 20px;
+  margin-top: 40px;
   position: relative;
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet {
