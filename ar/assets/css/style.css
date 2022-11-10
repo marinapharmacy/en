@@ -1032,12 +1032,14 @@ div#preloader {
 .work-right-text h2 {
   color: #fff;
   font-size: 24px;
+  text-align: right;
 }
 
 .work-right-text h5 {
   color: #fff;
   font-size: 18px;
   line-height: 34px;
+  text-align: right;
 }
 
 .work-right-text .sus-btn {
