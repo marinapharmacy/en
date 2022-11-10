@@ -2007,6 +2007,10 @@ span.email-notes {
   color: #444;
 }
 
+.footer-head p a:hover {
+  color: #0066cc;
+}
+
 .footer-head h4 {
   color: #444;
   font-size: 24px;
@@ -2067,6 +2071,10 @@ span.email-notes {
 
 .footer-icons {
   margin-top: 30px;
+}
+
+.footer-contacts p {
+  line-height: 14px;
 }
 
 .footer-contacts p span {
