@@ -318,10 +318,10 @@ div#preloader {
 }
 .sec-head {
   display: inline-block;
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 600;
   margin-bottom: 0;
-  padding: 0 0 10px;
+  padding: 10px 0 10px;
   text-transform: uppercase;
   transition: all 0.4s ease 0s;
 }
@@ -331,7 +331,8 @@ div#preloader {
 #topbar {
   background: #0066cc;
   height: 40px;
-  font-size: 15px;
+  font-size: 14px;
+  font-weight: 600;
   transition: all 0.5s;
   color: #fff;
   padding: 0;
@@ -339,10 +340,11 @@ div#preloader {
 #topbar img {
   max-width:16%;
   height: 32px;
-  margin-right:5px
+  margin-right:10px
 }
 #topbar .contact-info i {
   font-style: normal;
+  margin-right:10px;
   color: #fff
 }
 #topbar .contact-info span {
