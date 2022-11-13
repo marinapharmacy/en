@@ -531,7 +531,7 @@ div#preloader {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
+  height: 94vh;
   background: #000;
   overflow: hidden;
   position: relative;
@@ -654,6 +654,7 @@ div#preloader {
   margin: 10px;
   color: #fff;
   background: #0066cc;
+  text-transform: uppercase;
 }
 #hero .btn-get-started:hover {
   background: #fff;
