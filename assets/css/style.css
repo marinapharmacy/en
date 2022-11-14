@@ -536,9 +536,9 @@ div#preloader {
   overflow: hidden;
   position: relative;
 }
-@media (max-height: 500px) {
+@media (max-height: 768px) {
   #hero {
-    height: 150vh;
+    height: 100vh;
   }
 }
 #hero .carousel, #hero .carousel-inner, #hero .carousel-item, #hero .carousel-item::before {
