@@ -290,7 +290,7 @@ div#preloader {
 #header .logo h1 {
   margin-top:10px;
   font-size: 28px;
-  line-height: 1.2em;
+  line-height: 1.2;
   text-align: right;
 }
 #header .logo h1 span {
