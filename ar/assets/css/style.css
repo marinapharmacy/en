@@ -669,7 +669,7 @@ div#preloader {
   color: #c01c1c;
   font-size: 36px;
   margin-bottom: 50px;
-  line-height: 1.3;
+  line-height: 1.3em;
   text-align: center;
 }
 .about-area p {
