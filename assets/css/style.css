@@ -295,7 +295,7 @@ div#preloader {
 #header .logo h1 {
   margin-top:10px;
   font-size: 28px;
-  line-height: 1;
+  line-height: 1em;
   font-weight: bold;
 }
 #header .logo h1 span {
@@ -800,36 +800,6 @@ div#preloader {
   color: #fff;
   font-size: 17px;
   line-height: 26px;
-}
-.email-news {
-  display: block;
-  margin: 30px 0;
-  overflow: hidden;
-  text-align: center;
-  width: 100%;
-}
-.email-news .email_button input {
-  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  border: 1px solid #fff;
-  color: #fff;
-  float: left;
-  font-size: 13px;
-  padding: 8px;
-  width: 81%;
-}
-.email-news .email_button > button {
-  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  border: 1px solid #fff;
-  color: #fff;
-  float: left;
-  font-size: 16px;
-  padding: 8px 12px;
-  text-align: center;
-}
-.email-news .email_button > button:hover {
-  background: #0066cc;
-  border: 1px solid #fff;
-  color: #fff;
 }
 .team-left-icon ul li {
   display: inline-block;
@@ -1372,10 +1342,13 @@ div#preloader {
   text-decoration: none;
 }
 .blog-text h4 {
+  font-weight: 600;
   color: #444;
   margin-bottom: 15px;
 }
-
+.blog-text p {
+  line-height: 1.9em;
+}
 .barcode img {
   float: left;
   width:130px;
@@ -1456,7 +1429,6 @@ div#preloader {
   transition: all 0.1s ease 0s;
   box-shadow: 0px 5px 30px rgba(127, 137, 161, 0.25);
 }
-
 .single-blog .ready-btn-right:hover {
   background-color: #0066cc;
   border: 1px solid #0066cc;
@@ -1467,41 +1439,34 @@ div#preloader {
   margin-top: 80px;
   max-width: 100%;
 }
-
 /*--------------------------------------------------------------
 # Blog page
 --------------------------------------------------------------*/
 .page-area {
   position: relative;
 }
-
 .blog-page .banner-box {
   margin-bottom: 40px;
 }
-
 .search-option input {
   border: medium none;
   padding: 6px 15px;
   width: 80%;
 }
-
 .search-option {
   border: 1px solid #ccc;
   height: 42px;
   margin-bottom: 30px;
 }
-
 .search-option button {
   background: transparent none repeat scroll 0 0;
   border: medium none;
   font-size: 20px;
   padding: 8px 23px;
 }
-
 .search-option button:hover {
   color: #0066cc;
 }
-
 .left-blog h4 {
   border-bottom: 1px solid #ddd;
   color: #444;
@@ -1511,19 +1476,16 @@ div#preloader {
   padding: 15px 10px;
   text-transform: uppercase;
 }
-
 .left-blog {
   background: #f9f9f9 none repeat scroll 0 0;
   margin-bottom: 30px;
   overflow: hidden;
   padding-bottom: 20px;
 }
-
 .left-blog li {
   border-bottom: 1px solid #ddd;
   display: block;
 }
-
 .left-blog ul li a {
   color: #444;
   display: block;
@@ -1531,14 +1493,12 @@ div#preloader {
   padding: 10px;
   text-transform: capitalize;
 }
-
 .recent-single-post {
   border-bottom: 1px solid #ddd;
   display: block;
   overflow: hidden;
   padding: 15px 10px;
 }
-
 .ready-btn {
   border: 1px solid #fff;
   border-radius: 30px;
@@ -1554,27 +1514,23 @@ div#preloader {
   transition: all 0.4s ease 0s;
   z-index: 222;
 }
-
 .ready-btn:hover {
   color: #fff;
   background: #0066cc;
   border: 1px solid #0066cc;
   text-decoration: none;
 }
-
 .post-img {
   display: block;
   float: left;
   padding: 0 5px;
   width: 35%;
 }
-
 .pst-content {
   display: block;
   float: left;
   width: 65%;
 }
-
 .pst-content p a:hover, .left-blog ul li a:hover {
   color: #0066cc;
 }
@@ -1894,12 +1850,9 @@ span.email-notes {
 .footer-head p a {
   color: #444;
 }
-
-
 .footer-head p a:hover {
   color: #0066cc;
 }
-
 .footer-head h4 {
   color: #444;
   font-size: 24px;
@@ -1907,15 +1860,12 @@ span.email-notes {
   padding-bottom: 10px;
   text-transform: uppercase;
 }
-
 .footer-head h4 span{
   color: #0066cc;
 }
-
 .footer-logo {
   padding-bottom: 20px;
 }
-
 .footer-logo h2 {
   color: #222;
   padding: 0;
@@ -1924,15 +1874,12 @@ span.email-notes {
   font-weight: bold;
   line-height: 1;
 }
-
 .footer-logo h2 span {
   color: #0066cc;
 }
-
 .footer-icons ul li {
   display: inline-block;
 }
-
 .footer-icons ul li a {
   border: 1px solid #444;
   color: #444;
@@ -1959,29 +1906,23 @@ span.email-notes {
   width: 33.33%;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
-
 .footer-icons {
   margin-top: 30px;
 }
-
 .footer-contacts p {
   line-height: 14px;
 }
-
 .footer-contacts p span {
   color: #0066cc;
   font-weight: 700;
 }
-
 .popular-tag ul li {
   display: inline-block;
 }
-
 .footer-content {
   display: block;
   overflow: hidden;
 }
-
 .popular-tag ul li a:hover, .footer-icons ul li a:hover {
   background: #0066cc;
   border: 1px solid #0066cc;
@@ -2007,30 +1948,24 @@ span.email-notes {
   background: #f1f1f1 none repeat scroll 0 0;
   padding: 15px 0;
 }
-
 .copyright-text a:hover {
   text-decoration: underline;
   color: #0066cc;
 }
-
 .copyright-text a {
   color: #444;
 }
-
 .copyright > p {
   margin-bottom: 0;
   color: #444;
 }
-
 .copyright a, .credits a {
   color: #0066cc;
 }
-
 .credits {
   padding-top: 5px;
   text-align: center;
 }
-
 /*--------------------------------------------------------------
 # Responsive
 --------------------------------------------------------------*/
@@ -2207,26 +2142,6 @@ span.email-notes {
   .tab-menu ul.nav li a {
     padding: 8px 6px;
   }
-
-  .wellcome-text {
-    margin: 0px;
-    padding: 70px 0px;
-  }
-
-  .subs-feilds {
-    width: 100%;
-  }
-
-  .suscribe-input input {
-    width: 60%;
-  }
-
-  .suscribe-input button {
-    font-size: 15px;
-    padding: 14px 10px;
-    width: 40%;
-  }
-
   .section-headline h3 {
     font-size: 25px;
   }
