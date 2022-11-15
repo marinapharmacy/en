@@ -228,7 +228,7 @@ div#preloader {
 #topbar {
   background: #0066cc;
   height: 40px;
-  font-size: 14px;
+  font-size: 15px;
   transition: all 0.5s;
   color: #fff;
   padding: 0;
@@ -253,7 +253,6 @@ div#preloader {
   transition: all 0.5s;
 }
 #topbar .contact-info i a, #topbar .contact-info i span {
-  padding-right: 5px;
   color: #fff
 }
 #topbar .contact-info i a {
@@ -291,7 +290,7 @@ div#preloader {
 #header .logo h1 {
   margin-top:10px;
   font-size: 28px;
-  line-height: 1.2;
+  line-height: 1.2em;
   text-align: right;
 }
 #header .logo h1 span {
@@ -370,7 +369,7 @@ div#preloader {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0 10px 25px;
+  padding: 10px 25px 10px 0;
   font-size: 15px;
   font-weight: 700;
   color: #fff;
@@ -427,7 +426,7 @@ div#preloader {
 .navbar .dropdown .dropdown:hover > ul {
   opacity: 1;
   top: 0;
-  left: 100%;
+  right: 100%;
   visibility: visible;
 }
 @media (max-width: 1366px) {
@@ -578,11 +577,6 @@ div#preloader {
   #hero h2 {
     font-size: 20px;
     line-height: 1.2;
-  }
-  #hero .carousel-item {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
   }
 }
 #hero p {
