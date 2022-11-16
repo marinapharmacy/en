@@ -289,7 +289,7 @@ div#preloader {
 }
 #header .logo h1 {
   margin-top:10px;
-  font-size: 28px;
+  font-size: 29px;
   line-height: 1.2em;
   text-align: right;
 }
@@ -304,7 +304,7 @@ div#preloader {
   float:right;
   margin-top:15px;
   margin-left:10px;
-  max-height: 60px
+  max-height: 65px
 }
 @media (max-width: 1025px) {
   #header {
@@ -315,7 +315,7 @@ div#preloader {
     font-size: 20px;
   }
   #header .logo img {
-    max-height: 40px
+    max-height: 45px
   }
 }
 .header-bg {
@@ -360,26 +360,43 @@ div#preloader {
   padding: 0;
   display: flex;
   list-style: none;
-  align-items: center;
+  align-items: center
 }
 .navbar li {
-  position: relative;
+  position: relative
 }
 .navbar a, .navbar a:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 25px 10px 0;
-  font-size: 15px;
+  padding: 10px 13px;
+  font-size: 16px;
   font-weight: 700;
   color: #fff;
   white-space: nowrap;
-  transition: 0.3s;
+  text-transform: uppercase;
+  transition: .3s ease-in-out;
 }
 .navbar a i, .navbar a:focus i {
   font-size: 12px;
   line-height: 0;
   margin-left: 5px;
+}
+.navbar > ul > li > a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -6px;
+  right: 0;
+  background-color: #c01c1c;
+  visibility: hidden;
+  width: 0px;
+  transition: all .3s ease-in-out
+}
+.navbar a:hover:before, .navbar li:hover > a:before, .navbar .active:before {
+  visibility: visible;
+  width: 100%
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
   color: #568fc7;
@@ -664,18 +681,26 @@ div#preloader {
   background-color: #f9f9f9;
   text-align: right;
 }
-.about-area h3 {
+.about-area h2, h3 {
   color: #c01c1c;
   font-size: 36px;
   margin-bottom: 50px;
+  text-align: center;
   line-height: 1.3em;
+}
+.about-area h2 {
+  margin-bottom: 100px;
+}
+.about-area h4 {
+  color: #c01c1c;
+  font-size: 28px;
+  margin-bottom: 50px;
   text-align: center;
 }
 .about-area p {
   font-size: 18px;
   line-height: 2rem;
 }
-
 .about-area2 {
   background-color: #fff;
   text-align: right;
@@ -720,7 +745,8 @@ div#preloader {
   margin-bottom: 20px;
 }
 .section-headline.services-head > h2 {
-  margin-bottom: 25px;
+  margin-bottom: 100px;
+  color: #c01c1c;
 }
 .services-details {
   padding-top: 40px;
@@ -934,6 +960,12 @@ div#preloader {
 --------------------------------------------------------------*/
 .portfolio-area {
   background: #f9f9f9;
+}
+.section-headline > h2 {
+  margin-bottom: 100px;
+  color: #c01c1c;
+  text-transform: uppercase;
+  font-size: 36px;
 }
 .pst-content {
   padding-left: 10px;
