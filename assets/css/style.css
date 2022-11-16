@@ -231,7 +231,7 @@ div#preloader {
 #topbar {
   background: #0066cc;
   height: 40px;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 600;
   transition: all 0.5s;
   color: #fff;
@@ -611,7 +611,7 @@ div#preloader {
 #hero .carousel-fade {
   overflow: hidden;
 }
-#hero .carousel-fade .carousel-inner .carousel-item {
+#hero .carousel-fade .carousel-inner .carousel-item { 
   transition-property: opacity;
 }
 #hero .carousel-fade .carousel-inner .carousel-item,
