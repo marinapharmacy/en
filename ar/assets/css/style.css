@@ -684,7 +684,6 @@ div#preloader {
 .about-area {
   background-color: #f9f9f9;
   text-align: right;
-  width: 100%;
 }
 .about-area h2, h3 {
   color: #c01c1c;
@@ -709,7 +708,6 @@ div#preloader {
 .about-area2 {
   background-color: #fff;
   text-align: right;
-  width: 100%;
 }
 .about-area2 h3 {
   color: #c01c1c;
@@ -920,7 +918,7 @@ div#preloader {
 # Review
 --------------------------------------------------------------*/
 .reviews-area {
-  background: url(../../../assets/img/about/1.jpg);
+  background: url(../../../assets/img/team/team.jpg);
   overflow: hidden;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1201,7 +1199,6 @@ div#preloader {
 .suscribe-area {
   background: #0066cc none repeat scroll 0 0;
   padding: 30px 0;
-  width: 100%;
 }
 .suscribe-text {
   display: block;
@@ -1764,7 +1761,6 @@ span.email-notes {
   padding: 40px 0;
   background: #f9f9f9;
   text-align: right;
-  width: 100%;
 }
 
 .footer-head p {
