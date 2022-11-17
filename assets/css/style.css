@@ -168,6 +168,7 @@ ul {
   padding: 0;
 }
 input, select, textarea, input[type=text], input[type=date], input[type=url], input[type=email], input[type=password], input[type=tel], button, button[type=submit] {
+  -moz-appearance: none;
   appearance: none;
   box-shadow: none !important;
 }
@@ -294,7 +295,7 @@ div#preloader {
 #header .logo h1 {
   margin-top:15px;
   font-size: 29px;
-  line-height: 1em;
+  line-height: 1;
   font-weight: bold;
 }
 #header .logo h1 span {
@@ -310,7 +311,7 @@ div#preloader {
   margin-right:10px;
   max-height: 65px
 }
-@media (max-width: 1025px) {
+@media (max-width: 768px) {
   #header {
     height: 60px;
     background: rgba(0, 0, 0, 0.8);
@@ -369,17 +370,22 @@ div#preloader {
 .navbar li {
   position: relative
 }
+.navbar > ul > li {
+  white-space: nowrap;
+  padding: 10px 0 10px 13px
+}
 .navbar a, .navbar a:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 12px;
+  padding: 0 3px;
   font-size: 15px;
-  font-weight: 700;
+  font-weight: 600;
   color: #fff;
   white-space: nowrap;
   text-transform: uppercase;
   transition: .3s ease-in-out;
+  position: relative
 }
 .navbar a i, .navbar a:focus i {
   font-size: 12px;
@@ -392,7 +398,7 @@ div#preloader {
   width: 100%;
   height: 2px;
   bottom: -6px;
-  left: 0;
+  right: 0;
   background-color: #c01c1c;
   visibility: hidden;
   width: 0px;
