@@ -1199,6 +1199,7 @@ div#preloader {
 .suscribe-area {
   background: #0066cc none repeat scroll 0 0;
   padding: 30px 0;
+  width: 100%;
 }
 .suscribe-text {
   display: block;
