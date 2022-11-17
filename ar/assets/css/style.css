@@ -684,6 +684,7 @@ div#preloader {
 .about-area {
   background-color: #f9f9f9;
   text-align: right;
+  width: 100%;
 }
 .about-area h2, h3 {
   color: #c01c1c;
@@ -708,6 +709,7 @@ div#preloader {
 .about-area2 {
   background-color: #fff;
   text-align: right;
+  width: 100%;
 }
 .about-area2 h3 {
   color: #c01c1c;
@@ -1762,6 +1764,7 @@ span.email-notes {
   padding: 40px 0;
   background: #f9f9f9;
   text-align: right;
+  width: 100%;
 }
 
 .footer-head p {
