@@ -219,7 +219,6 @@ div#preloader {
   font-size: 24px;
   margin-bottom: 0;
   padding: 10px 0 10px;
-  text-transform: uppercase;
   transition: all 0.4s ease 0s;
 }
 /*--------------------------------------------------------------
@@ -814,7 +813,6 @@ div#preloader {
 .team-left-text h4 {
   color: #fff;
   font-size: 30px;
-  text-transform: uppercase;
 }
 .team-left-text p {
   color: #fff;
@@ -969,7 +967,6 @@ div#preloader {
 .section-headline > h2 {
   margin-bottom: 100px;
   color: #c01c1c;
-  text-transform: uppercase;
   font-size: 36px;
 }
 .pst-content {
@@ -990,7 +987,6 @@ div#preloader {
   line-height: 20px;
   color: #555;
   border-radius: 50px;
-  text-transform: uppercase;
   background: #fff;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
@@ -1077,7 +1073,6 @@ div#preloader {
   margin-bottom: 5px;
   padding-top: 50%;
   text-decoration: none;
-  text-transform: uppercase;
 }
 .project-dec h4:hover {
   color: #fff;
@@ -1093,7 +1088,6 @@ div#preloader {
   margin-bottom: 5px;
   padding-top: 25%;
   text-decoration: none;
-  text-transform: uppercase;
 }
 .project-dec2 h4:hover {
   color: #fff;
@@ -1343,7 +1337,6 @@ div#preloader {
   float: right;
   padding: 10px 20px;
   text-align: center;
-  text-transform: uppercase;
   transition: all 0.4s ease 0s;
   box-shadow: 0px 5px 30px rgba(127, 137, 161, 0.25);
 }
@@ -1362,7 +1355,6 @@ div#preloader {
   float: left;
   padding: 10px 22px;
   text-align: center;
-  text-transform: uppercase;
   transition: all 0.1s ease 0s;
   box-shadow: 0px 5px 30px rgba(127, 137, 161, 0.25);
 }
@@ -1409,7 +1401,6 @@ div#preloader {
   font-size: 17px;
   margin-bottom: 0;
   padding: 15px 10px;
-  text-transform: uppercase;
 }
 .left-blog {
   background: #f9f9f9 none repeat scroll 0 0;
@@ -1444,7 +1435,6 @@ div#preloader {
   margin-top: 30px;
   padding: 12px 40px;
   text-align: center;
-  text-transform: uppercase;
   transition: all 0.4s ease 0s;
   z-index: 222;
 }
@@ -1521,7 +1511,6 @@ div#preloader {
 .post-information h2 {
   color: #363636;
   font-size: 22px;
-  text-transform: uppercase;
 }
 
 .post-information {
@@ -1640,7 +1629,6 @@ div#preloader {
   font-size: 18px;
   margin: 0 0 20px;
   padding: 0 0 5px;
-  text-transform: uppercase;
 }
 
 .comments-list ul li {
@@ -1670,7 +1658,6 @@ div#preloader {
 .author-description h2 {
   color: #777;
   font-size: 20px;
-  text-transform: uppercase;
 }
 
 .author-description h2 a {
@@ -1743,7 +1730,6 @@ span.email-notes {
   margin-top: 20px;
   padding: 10px 15px;
   text-shadow: none;
-  text-transform: uppercase;
   transition: all 0.3s ease 0s;
   white-space: nowrap;
 }
@@ -1791,7 +1777,6 @@ span.email-notes {
   color: #444;
   font-size: 24px;
   padding-bottom: 10px;
-  text-transform: uppercase;
 }
 .footer-head h4 span{
   color: #0066cc;
