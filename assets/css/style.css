@@ -372,7 +372,7 @@ div#preloader {
 }
 .navbar > ul > li {
   white-space: nowrap;
-  padding: 10px 0 10px 13px
+  padding: 0 0 0 13px
 }
 .navbar a, .navbar a:focus {
   display: flex;
@@ -439,7 +439,6 @@ div#preloader {
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
   color: #0066cc;
-  background: #FF8000
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -801,7 +800,6 @@ div#preloader {
   overflow: hidden;
 }
 .team-member::before {
-  background: rgba(0, 0, 0, 0) url("../img/team/team01.jpg") repeat scroll 0 0;
   content: "";
   display: block;
   height: 100%;
@@ -1235,6 +1233,7 @@ div#preloader {
   font-weight: 600;
   margin: 0;
   letter-spacing: 2px;
+  text-transform: none;
 }
 .sus-btn {
   background: #fff none repeat scroll 0 0;

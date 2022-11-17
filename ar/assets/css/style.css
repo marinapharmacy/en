@@ -366,7 +366,7 @@ div#preloader {
 }
 .navbar > ul > li {
   white-space: nowrap;
-  padding: 10px 20px 10px 0
+  padding: 0 20px 0 0
 }
 .navbar a, .navbar a:focus {
   display: flex;
@@ -763,7 +763,7 @@ div#preloader {
   margin-top: 40px;
 }
 .section-head > h2 {
-  color: #333;
+  color: #c01c1c;
 }
 .single-services > h4 {
   color: #444;
@@ -786,7 +786,6 @@ div#preloader {
   overflow: hidden;
 }
 .team-member::before {
-  background: rgba(0, 0, 0, 0) url("../../../assets/img/team/ceo.webp") repeat scroll 0 0;
   content: "";
   display: block;
   height: 100%;
