@@ -1260,6 +1260,7 @@ div#preloader {
 .contact-area {
   height: auto;
   width: 100%;
+  font-family: 'al-jazeera-arabic-bold', 'Open Sans', sans-serif;
 }
 .contact-content {
   padding: 100px;
