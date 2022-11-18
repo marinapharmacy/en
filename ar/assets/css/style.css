@@ -1250,6 +1250,10 @@ div#preloader {
   margin-bottom: 30px;
   color: #444;
 }
+.single-icon a:hover {
+  color: #444;
+  text-decoration: underline;
+}
 .single-icon p {
   font-size: 15px;
   line-height: 30px;
@@ -1279,6 +1283,9 @@ div#preloader {
 }
 .blog-text p {
   line-height: 1.9em;
+}
+.blog-text a:hover {
+  text-decoration: underline;
 }
 .barcode img {
   float: right;
@@ -1799,7 +1806,7 @@ span.email-notes {
 }
 .footer-icons ul li a {
   border: 1px solid #444;
-  color: #444;
+  color: #c01c1c;
   display: block;
   font-size: 16px;
   height: 40px;
@@ -1832,6 +1839,9 @@ span.email-notes {
 }
 .footer-contacts p span {
   color: #0066cc;
+}
+.footer-contacts a:hover {
+  text-decoration: underline;
 }
 .popular-tag ul li {
   display: inline-block;
@@ -1881,6 +1891,10 @@ span.email-notes {
 .credits {
   padding-top: 5px;
   text-align: center;
+}
+.credits a:hover {
+  text-decoration: underline;
+  color: #c01c1c;
 }
 /*--------------------------------------------------------------
 # Responsive
