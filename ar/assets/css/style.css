@@ -1247,7 +1247,7 @@ div#preloader {
   line-height: 56px;
   border-radius: 50%;
   margin-bottom: 30px;
-  color: #0066cc;
+  color: #444;
 }
 .single-icon p {
   font-size: 15px;
@@ -1938,6 +1938,7 @@ span.email-notes {
   .suscribe-text h3 {
     font-size: 16px;
     padding-right: 20px;
+    text-transform: none;
   }
 
   .work-right-text h5 {
