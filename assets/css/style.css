@@ -713,12 +713,13 @@ div#preloader {
   background-color: #fff;
   text-align: left;
 }
-.about-area2 h3 {
+.about-area2 .context p {
   color: #c01c1c;
   font-size: 36px;
   margin-top: 50px;
   margin-bottom: 50px;
   text-align: center;
+  font-weight: 500;
 }
 .single-well .sec-head1 {
   color: #c01c1c;

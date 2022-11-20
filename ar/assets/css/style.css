@@ -704,7 +704,7 @@ div#preloader {
   background-color: #fff;
   text-align: right;
 }
-.about-area2 h3 {
+.about-area2 .context p {
   color: #c01c1c;
   font-size: 36px;
   margin-top: 50px;
