@@ -1811,14 +1811,19 @@ span.email-notes {
 .footer-head p a:hover {
   color: #0066cc;
 }
-.footer-head h4 {
+.footer-head1 p {
   color: #444;
   font-size: 24px;
   letter-spacing: 2px;
   padding-bottom: 10px;
+  font-weight: 500;
+  line-height: 1.1;
   text-transform: uppercase;
 }
-.footer-head h4 span{
+.footer-head1 span{
+  color: #0066cc;
+}
+.footer-head span{
   color: #0066cc;
 }
 .footer-logo {
