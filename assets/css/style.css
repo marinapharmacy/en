@@ -253,7 +253,7 @@ div#preloader {
   color: #fff
 }
 #topbar .contact-info span:hover {
-  text-decoration-line:underline;
+  text-decoration:underline;
   color:yellow;
   transition: all 0.5s;
 }
@@ -781,6 +781,8 @@ div#preloader {
   color: #444;
   font-size: 24px;
   font-weight: 500;
+  margin-bottom:20px;
+  text-transform: none;
 }
 .single-services > p {
   color: #333;
