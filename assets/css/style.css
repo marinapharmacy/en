@@ -301,7 +301,7 @@ div#preloader {
 #header .logo h1 span {
   color: #568fc7;
 }
-#header .logo h1 a, #header .logo h1 a:hover {
+#header .logo h1 {
   color: #fff;
   text-decoration: none;
 }
