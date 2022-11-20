@@ -1189,6 +1189,7 @@ div#preloader {
 }
 .blog-text p {
   line-height: 1.9em;
+  font-weight: 700;
 }
 .blog-text a:hover {
   text-decoration: underline;
