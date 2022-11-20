@@ -311,7 +311,7 @@ div#preloader {
   margin-right:10px;
   max-height: 65px
 }
-@media (max-width: 768px) {
+@media (max-width: 1025px) {
   #header {
     height: 60px;
     background: rgba(0, 0, 0, 0.8);
@@ -1184,6 +1184,10 @@ div#preloader {
   border-radius: 50%;
   margin-bottom: 30px;
   color: #444;
+}
+.single-icon a:hover {
+  color: #444;
+  text-decoration: underline;
 }
 .single-icon p {
   font-size: 15px;

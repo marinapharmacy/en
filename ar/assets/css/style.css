@@ -384,7 +384,7 @@ div#preloader {
 .navbar a i, .navbar a:focus i {
   font-size: 12px;
   line-height: 0;
-  margin-left: 5px;
+  margin-left: 5px
 }
 .navbar > ul > li > a:before {
   content: "";
@@ -417,10 +417,10 @@ div#preloader {
   visibility: hidden;
   background: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-  transition: 0.3s;
+  transition: 0.3s ease-in-out
 }
 .navbar .dropdown ul li {
-  min-width: 200px;
+  min-width: 200px
 }
 .navbar .dropdown ul a {
   padding: 10px 20px;
