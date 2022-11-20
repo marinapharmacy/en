@@ -756,7 +756,7 @@ div#preloader {
   padding-top: 40px;
   transition: all 0.5s ease 0s;
 }
-.services-details:hover h4, .services-details:hover .services-icon {
+.services-details:hover h3, .services-details:hover .services-icon {
   color: #0066cc;
 }
 .row.second-row {
@@ -765,7 +765,7 @@ div#preloader {
 .section-head > h2 {
   color: #c01c1c;
 }
-.single-services > h4 {
+.single-services > h3 {
   color: #444;
   font-size: 24px;
 }
