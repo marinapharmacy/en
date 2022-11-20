@@ -695,13 +695,6 @@ div#preloader {
 .about-area h2 {
   margin-bottom: 100px;
 }
-.about-area h4 {
-  color: #c01c1c;
-  font-size: 28px;
-  margin-bottom: 20px;
-  line-height: 1.5;
-  text-align: center;
-}
 .about-area p {
   font-size: 18px;
   line-height: 2rem;
@@ -716,6 +709,11 @@ div#preloader {
   margin-top: 50px;
   margin-bottom: 50px;
   text-align: center;
+}
+.single-well .sec-head {
+  color: #c01c1c;
+  font-size: 28px;
+  margin-bottom: 10px;
 }
 .about-area2 p {
   font-size: 18px;
