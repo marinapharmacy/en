@@ -557,6 +557,14 @@ div#preloader {
     height: 150vh;
   }
 }
+#hero .animate__fadeInRight {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+#hero .animate__fadeInRight span {
+  color: #568fc7;
+}
 #hero .carousel, #hero .carousel-inner, #hero .carousel-item, #hero .carousel-item::before {
   position: absolute;
   top: 0;
@@ -586,16 +594,8 @@ div#preloader {
 #hero .container {
   text-align: center;
 }
-#hero h2 {
-  color: #fff;
-  margin-bottom: 20px;
-  font-size: 24px;
-}
-#hero h2 span {
-  color: #568fc7;
-}
 @media (max-width: 768px) {
-  #hero h2 {
+  #hero .animate__fadeInRight {
     font-size: 20px;
     line-height: 1.2;
   }
