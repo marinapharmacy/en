@@ -199,7 +199,7 @@ div#preloader {
 .padding-2 {
   padding-bottom: 90px;
 }
-.section-headline h2 {
+.section-headline p {
   display: inline-block;
   font-size: 40px;
   font-weight: 600;
@@ -207,7 +207,7 @@ div#preloader {
   position: relative;
   text-transform: capitalize;
 }
-.section-headline h2::after {
+.section-headline p::after {
   border: 1px solid #333;
   bottom: -20px;
   content: "";
@@ -720,7 +720,7 @@ div#preloader {
   margin-bottom: 50px;
   text-align: center;
 }
-.single-well .sec-head {
+.single-well .sec-head1 {
   color: #c01c1c;
   font-size: 24px;
   margin-bottom: 10px;
@@ -758,7 +758,7 @@ div#preloader {
   line-height: 36px;
   margin-bottom: 20px;
 }
-.section-headline.services-head > h2 {
+.section-headline.services-head > p {
   margin-bottom: 100px;
   color: #c01c1c;
   text-transform: uppercase;
@@ -909,7 +909,7 @@ div#preloader {
 .portfolio-area {
   background: #f9f9f9;
 }
-.section-headline > h2 {
+.section-headline > p {
   margin-bottom: 100px;
   color: #c01c1c;
   text-transform: uppercase;
@@ -2000,7 +2000,7 @@ span.email-notes {
     padding: 8px 15px;
   }
 
-  .section-headline h2 {
+  .section-headline p {
     font-size: 30px;
   }
 
