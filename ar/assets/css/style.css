@@ -1779,6 +1779,7 @@ span.email-notes {
 .footer-head1 p {
   color: #444;
   font-size: 24px;
+  padding-bottom: 20px;
 }
 .footer-head1 span{
   color: #0066cc;
@@ -1833,6 +1834,7 @@ span.email-notes {
 }
 .footer-contacts p {
   line-height: 14px;
+  font-weight: 700;
   font-family: 'al-jazeera-arabic-bold', 'Open Sans', sans-serif;
 }
 .footer-contacts p span {
