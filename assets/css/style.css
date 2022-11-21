@@ -182,6 +182,11 @@ div#preloader {
   overflow: visible;
   background: #fff url("../img/preloader.gif") no-repeat center center;
 }
+div#preloader-finish {
+  opacity: 0;
+  pointer-events: none;
+  transition-delay: 15s;
+}
 ::-moz-selection {
   background: #0066cc;
   text-shadow: none;

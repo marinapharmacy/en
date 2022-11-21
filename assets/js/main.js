@@ -168,10 +168,10 @@
   /**
    * Preloader
    */
-  let preloader = select('#preloader');
+  let preloader = select('div#preloader');
   if (preloader) {
     window.addEventListener('load', () => {
-      preloader.remove()
+      preloader.remove('#divpreloader-finish', 6000)
     });
   }
 
