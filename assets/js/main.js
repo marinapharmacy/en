@@ -171,7 +171,7 @@
   let preloader = select('div#preloader');
   if (preloader) {
     window.addEventListener('load', () => {
-      preloader.remove('#divpreloader-finish', 6000)
+      preloader.remove('#divpreloader-finish')
     });
   }
 
