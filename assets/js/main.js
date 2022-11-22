@@ -168,12 +168,11 @@
   /**
    * Preloader
    */
-  let preloader = select('div#preloader');
-  if (preloader) {
-    window.addEventListener('load', () => {
-      preloader.remove('#divpreloader-finish')
-    });
-  }
+   const removePreloader = () => preloader.remove();
+   let preloader = select("#preloader");
+   if (preloader) {
+     window.addEventListener("load", () => setTimeout(removePreloader, 2000));
+   }
 
   /**
    * Porfolio isotope and filter
