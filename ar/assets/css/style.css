@@ -249,14 +249,14 @@ div#preloader:before {
 #topbar {
   background: #0066cc;
   height: 40px;
-  font-size: 15px;
+  font-size: 14px;
   transition: all 0.5s;
   color: #fff;
   padding: 0;
 }
 #topbar img {
-  max-width:16%;
-  height: 32px;
+  max-width:auto;
+  height:30px;
   margin-left:10px
 }
 #topbar .contact-info i {
