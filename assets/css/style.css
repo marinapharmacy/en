@@ -516,7 +516,7 @@ div#preloader:before {
 }
 .navbar-mobile .mobile-nav-toggle {
   position: absolute;
-  top: 15px;
+  top: 35px;
   right: 15px;
 }
 .navbar-mobile ul {
