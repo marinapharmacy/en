@@ -168,10 +168,11 @@
   /**
    * Preloader
    */
-   const removePreloader = () => preloader.remove();
-   let preloader = select("#preloader");
+   let preloader = select('#preloader');
    if (preloader) {
-     window.addEventListener("load", () => setTimeout(removePreloader, 2000));
+     window.addEventListener('load', () => {
+       preloader.remove()
+     });
    }
 
   /**

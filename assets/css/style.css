@@ -172,7 +172,6 @@ input, select, textarea, input[type=text], input[type=date], input[type=url], in
   appearance: none;
   box-shadow: none !important;
 }
-
 div#preloader {
   position: fixed;
   top: 0;
@@ -189,13 +188,12 @@ div#preloader:before {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  width: 60px;
-  height: 60px;
+  width: 120px;
+  height: 120px;
   -webkit-animation: animate-preloader 2s linear infinite;
   animation: animate-preloader 2s linear infinite;
-  background: #fff url("../img/preloader.gif") no-repeat center center;
+  background: #fff url("../img/preloader.png") no-repeat center center;
 }
-
 @keyframes animate-preloader {
   0% {
     transform: rotate(0deg);
@@ -1247,25 +1245,21 @@ div#preloader:before {
   height: 156px;
   box-shadow: 0px 5px 30px rgba(127, 137, 161, 0.25);
 }
-
 .barcode2 img {
   float: right;
   width:130px;
   height: 156px;
   box-shadow: 0px 5px 30px rgba(127, 137, 161, 0.25);
 }
-
 .blog_meta span.date_type i {
   margin-left: 5px;
 }
 .blog-meta span i {
   padding-left: 10px;
 }
-
 .blog-content .blog-meta {
   border-bottom: 1px dotted #333;
 }
-
 .blog-meta {
   border-bottom: 1px dotted #fff;
   padding: 10px 0;
@@ -1280,7 +1274,6 @@ div#preloader:before {
 .blog-meta .comments-type i {
   padding-left: 0 !important;
 }
-
 .blog-content-right .comments-type > a, .blog-content-right .date-type, .blog-content-right .blog-meta span.comments-type, .blog-content-right .blog-text p {
   color: #fff;
   letter-spacing: 1px;
@@ -1734,12 +1727,10 @@ span.email-notes {
   padding: 40px 0;
   background: #f9f9f9;
 }
-
 .footer-head p {
   color: #444;
   font-weight: 600;
 }
-
 .footer-head p a {
   color: #444;
 }
@@ -1797,7 +1788,6 @@ span.email-notes {
 .footer-icons ul li a i {
   line-height: 0;
 }
-
 .flicker-img > a {
   float: left;
   padding: 3px;
