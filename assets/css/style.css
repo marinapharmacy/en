@@ -188,8 +188,8 @@ div#preloader:before {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  width: 120px;
-  height: 120px;
+  width: 60px;
+  height: 60px;
   -webkit-animation: animate-preloader 2s linear infinite;
   animation: animate-preloader 2s linear infinite;
   background: #fff url("../img/preloader.png") no-repeat center center;
