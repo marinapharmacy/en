@@ -187,7 +187,7 @@ div#preloader:before {
   content: "";
   position: fixed;
   top: calc(50% - 30px);
-  left: calc(50% - 30px);
+  right: calc(50% - 30px);
   width: 60px;
   height: 60px;
   -webkit-animation: animate-preloader 2s linear infinite;
