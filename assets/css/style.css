@@ -251,12 +251,12 @@ div#preloader:before {
 --------------------------------------------------------------*/
 #topbar {
   background: #0066cc;
-  height: 30px;
+  height: 40px;
   font-size: 13px;
-  font-weight: 600;
   transition: all 0.5s;
   color: #fff;
   padding: 0;
+  font-weight: 600;
 }
 #topbar img {
   max-width:auto;
@@ -304,7 +304,7 @@ div#preloader:before {
   z-index: 997;
   background: rgba(0, 0, 0, 0.2);
   height: 100px;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 #header.header-scrolled {
   background: rgba(0, 0, 0, 0.8);
@@ -635,7 +635,7 @@ div#preloader:before {
 #hero p {
   width: 80%;
   font-size: 38px;
-  line-height: 1.2;
+  line-height: 1.5;
   margin: 0 auto 30px auto;
   color: #fff;
 }
@@ -647,7 +647,7 @@ div#preloader:before {
 @media (max-width: 768px) {
   #hero p {
     font-size: 28px;
-    line-height: 1.2;
+    line-height: 1.5;
   }
 }
 #hero .carousel-fade {
@@ -698,7 +698,7 @@ div#preloader:before {
   padding: 8px 32px;
   border-radius: 50px;
   transition: 0.5s;
-  margin: 10px;
+  margin: 50px;
   color: #fff;
   background: #0066cc;
   text-transform: uppercase;
