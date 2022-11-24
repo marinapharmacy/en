@@ -210,9 +210,9 @@
   });
 
   /**
-   * Partners slider
+   * suppliers slider
    */
-  new Swiper('.partners-slider', {
+  new Swiper('.suppliers-slider', {
     speed: 600,
     loop: true,
     autoplay: {

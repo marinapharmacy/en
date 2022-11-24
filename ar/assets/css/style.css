@@ -1081,9 +1081,9 @@ video {
   width: 100%;
 }
 /*--------------------------------------------------------------
-# partners
+# suppliers
 --------------------------------------------------------------*/
-.partners {
+.suppliers {
   padding: 80px 0;
   background: url("../../../assets/img/background/map.jpg") no-repeat;
   background-position: center center;
@@ -1091,7 +1091,7 @@ video {
   position: relative;
   text-align: center;
 }
-.partners::before {
+.suppliers::before {
   content: "";
   position: absolute;
   left: 0;
@@ -1100,42 +1100,42 @@ video {
   bottom: 0;
   background: rgba(0, 0, 0, 0.7);
 }
-.partners .partners-carousel, .partners .partners-slider {
+.suppliers .suppliers-carousel, .suppliers .suppliers-slider {
   overflow: hidden;
 }
-.partners .testimonial-item {
+.suppliers .suppliers-item {
   text-align: center;
   color: #fff;
 }
-.partners .testimonial-item .testimonial-img {
+.suppliers .suppliers-item .suppliers-img {
   width: 100px;
   border-radius: 50%;
   border: 6px solid rgba(255, 255, 255, 0.15);
 }
-.partners h2 {
+.suppliers h2 {
   color: #fff;
 }
-.partners .testimonial-item p {
+.suppliers .suppliers-item p {
   font-size: 20px;
   text-align: center;
   color: #fff;
   margin-top: 20px;
 }
-.partners .swiper-pagination {
+.suppliers .swiper-pagination {
   margin-top: 40px;
   position: relative;
 }
-.partners .swiper-pagination .swiper-pagination-bullet {
+.suppliers .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: rgba(255, 255, 255, 0.5);
   opacity: 1;
 }
-.partners .swiper-pagination .swiper-pagination-bullet-active {
+.suppliers .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #0066cc;
 }
 @media (min-width: 992px) {
-  .partners .testimonial-item p {
+  .suppliers .suppliers-item p {
     width: 100%;
   }
 }
