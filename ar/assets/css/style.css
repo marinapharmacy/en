@@ -248,7 +248,7 @@ div#preloader:before {
 --------------------------------------------------------------*/
 #topbar {
   background: #0066cc;
-  height: 40px;
+  height: 30px;
   font-size: 13px;
   transition: all 0.5s;
   color: #fff;
@@ -256,7 +256,7 @@ div#preloader:before {
 }
 #topbar img {
   max-width:auto;
-  height:29px;
+  height:25px;
   margin-left:10px
 }
 #topbar .contact-info i {
@@ -300,7 +300,7 @@ div#preloader:before {
   z-index: 997;
   background: rgba(0, 0, 0, 0.2);
   height: 100px;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 #header.header-scrolled {
   background: rgba(0, 0, 0, 0.8);
@@ -609,7 +609,7 @@ div#preloader:before {
   align-items: center;
   position: absolute;
   bottom: 0;
-  top: 70px;
+  top: 0;
   left: 50px;
   right: 50px;
 }
@@ -631,7 +631,7 @@ div#preloader:before {
   width: 80%;
   font-size: 38px;
   line-height: 1.2;
-  margin: 0 auto 30px auto;
+  margin: 30px auto 50px auto;
   color: #fff;
 }
 @media (min-width: 1024px) {
@@ -686,8 +686,7 @@ div#preloader:before {
   cursor: pointer;
 }
 #hero .btn-get-started {
-  font-size: 16px;
-  letter-spacing: 1px;
+  font-size: 18px;
   display: inline-block;
   padding: 8px 32px;
   border-radius: 50px;
@@ -698,6 +697,7 @@ div#preloader:before {
 }
 #hero .btn-get-started:hover {
   background: #fff;
+  font-weight: 600;
   color: #0066cc;
 }
 /*--------------------------------------------------------------
@@ -735,7 +735,7 @@ div#preloader:before {
 .single-well .sec-head1 {
   color: #c01c1c;
   font-size: 24px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .about-area2 p {
   font-size: 18px;
@@ -758,6 +758,9 @@ div#preloader:before {
 }
 .single-well p {
   color: #444;
+}
+.single-well img {
+  margin-top: 5px;
 }
 /*--------------------------------------------------------------
 # Services
