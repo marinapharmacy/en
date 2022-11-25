@@ -692,10 +692,10 @@ div#preloader:before {
 }
 #hero .btn-get-started {
   font-weight: 600;
-  font-size: 16px;
+  font-size: 15px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 8px 32px;
+  padding: 8px 20px;
   border-radius: 50px;
   transition: 0.5s;
   margin: 50px;
