@@ -1177,6 +1177,7 @@ video {
   margin: 0;
   letter-spacing: 2px;
   text-transform: none;
+  line-height: 1.5;
 }
 .sus-btn {
   background: #fff none repeat scroll 0 0;
@@ -1220,16 +1221,20 @@ video {
   margin-bottom: 30px;
   color: #444;
 }
+.single-icon i:hover {
+  color: #0066cc;
+}
 .single-icon a:hover {
   color: #444;
   text-decoration: underline;
 }
-.single-icon p {
+.single-icon {
   font-size: 15px;
   line-height: 30px;
+  font-weight: 700;
 }
 .contact-icon {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 /*--------------------------------------------------------------
 # branches
