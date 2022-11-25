@@ -702,6 +702,7 @@ div#preloader:before {
   color: #fff;
   background: #0066cc;
   text-transform: uppercase;
+  white-space: nowrap;
 }
 #hero .btn-get-started:hover {
   background: #fff;
