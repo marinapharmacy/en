@@ -694,7 +694,6 @@ div#preloader:before {
   font-weight: 600;
   font-size: 15px;
   letter-spacing: 1px;
-  display: inline-block;
   padding: 8px 25px;
   border-radius: 50px;
   transition: 0.5s;
@@ -703,6 +702,8 @@ div#preloader:before {
   background: #0066cc;
   text-transform: uppercase;
   white-space: nowrap;
+  display: inline-flex; 
+  justify-content: center;
 }
 #hero .btn-get-started:hover {
   background: #fff;
