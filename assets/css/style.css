@@ -695,7 +695,7 @@ div#preloader:before {
   font-size: 15px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 8px 20px;
+  padding: 8px 25px;
   border-radius: 50px;
   transition: 0.5s;
   margin: 50px;
