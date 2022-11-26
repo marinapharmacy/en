@@ -175,34 +175,6 @@
    }
 
   /**
-   * Porfolio isotope and filter
-   */
-  window.addEventListener('load', () => {
-    let productsContainer = select('.products-container');
-    if (productsContainer) {
-      let productsIsotope = new Isotope(productsContainer, {
-        itemSelector: '.products-item',
-        layoutMode: 'fitRows'
-      });
-
-      let productsFilters = select('#products-flters li', true);
-
-      on('click', '#products-flters li', function(e) {
-        e.preventDefault();
-        productsFilters.forEach(function(el) {
-          el.classList.remove('filter-active');
-        });
-        this.classList.add('filter-active');
-
-        productsIsotope.arrange({
-          filter: this.getAttribute('data-filter')
-        });
-      }, true);
-    }
-
-  });
-
-  /**
    * Initiate products lightbox 
    */
   const productsLightbox = GLightbox({
