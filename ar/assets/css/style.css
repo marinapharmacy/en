@@ -228,7 +228,7 @@ div#preloader:before {
 }
 .section-headline p::after {
   border: 1px solid #333;
-  bottom: -20px;
+  bottom: -40px;
   content: "";
   left: 0;
   margin: 0 auto;
@@ -1003,8 +1003,11 @@ video {
   color: #fff;
 }
 .project-dec span {
-  color: #ddd;
+  color: #fff;
   font-size: 13px;
+}
+.project-dec span:hover {
+  color: yellow;
 }
 .project-dec2 h4 {
   color: #ddd;
@@ -1015,6 +1018,13 @@ video {
 }
 .project-dec2 h4:hover {
   color: #fff;
+}
+.project-dec2 span {
+  color: #fff;
+  font-size: 13px;
+}
+.project-dec2 span:hover {
+  color: yellow;
 }
 /*--------------------------------------------------------------
 # suppliers
