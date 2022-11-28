@@ -174,6 +174,15 @@
      window.addEventListener("load", () => setTimeout(removePreloader, 1500));
    }
 
+/**
+   * Initiate glightbox
+   */
+ const glightbox = GLightbox({
+  selector: '.glightbox'
+});
+
+
+
   /**
    * Initiate products lightbox 
    */
