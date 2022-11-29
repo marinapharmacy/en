@@ -1140,7 +1140,7 @@ video {
   height: 50px;
   line-height: 56px;
   border-radius: 50%;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   color: #444;
 }
 .single-icon i:hover {
@@ -1156,7 +1156,7 @@ video {
   font-weight: 700;
 }
 .contact-icon {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 /*--------------------------------------------------------------
 # branches
