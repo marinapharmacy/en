@@ -736,7 +736,7 @@ div#preloader:before {
 .single-well .sec-head1 {
   color: #c01c1c;
   font-size: 24px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .about-area2 p {
   font-size: 18px;
@@ -759,9 +759,6 @@ div#preloader:before {
 }
 .single-well p {
   color: #444;
-}
-.single-well img {
-  margin-top: 5px;
 }
 video {
   display: block;
