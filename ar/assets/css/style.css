@@ -255,7 +255,6 @@ div#preloader:before {
   padding: 0;
 }
 #topbar img {
-  max-width:auto;
   height:25px;
   margin-left:10px
 }
@@ -1052,7 +1051,7 @@ video {
   color: #fff;
 }
 .suppliers .suppliers-item .suppliers-img {
-  width: 100px;
+  max-width: 100px;
   border-radius: 50%;
   border: 6px solid rgba(255, 255, 255, 0.15);
 }
