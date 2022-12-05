@@ -1178,6 +1178,9 @@ video {
 .branches-text a:hover {
   text-decoration: underline;
 }
+.branches-text i {
+  margin-top: 10px;
+}
 .barcode img {
   float: right;
   width:130px;
@@ -1226,6 +1229,7 @@ video {
   cursor: pointer;
   font-size: 15px;
   margin: 20px;
+  margin-top: 30px;
   margin-right: 0;
   float: right;
   padding: 10px 20px;
@@ -1244,6 +1248,7 @@ video {
   cursor: pointer;
   font-size: 15px;
   margin: 20px;
+  margin-top: 30px;
   margin-left: 0;
   float: left;
   padding: 10px 22px;
