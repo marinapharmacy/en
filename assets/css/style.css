@@ -1007,7 +1007,7 @@ video {
   height: 100%;
   width: 100%;
 }
-.project-dec h4 {
+.project-dec h3 {
   color: #ddd;
   font-size: 24px;
   margin-top: -85px;
@@ -1016,7 +1016,7 @@ video {
   text-transform: uppercase;
   font-weight: 800;
 }
-.project-dec h4:hover {
+.project-dec h3:hover {
   color: #fff;
 }
 .project-dec span {
@@ -1027,7 +1027,7 @@ video {
 .project-dec span:hover {
   color: yellow;
 }
-.project-dec2 h4 {
+.project-dec2 h3 {
   color: #ddd;
   font-size: 24px;
   margin-top: -65px;
@@ -1036,7 +1036,7 @@ video {
   text-transform: uppercase;
   font-weight: 800;
 }
-.project-dec2 h4:hover {
+.project-dec2 h3:hover {
   color: #fff;
 }
 .project-dec2 span {
