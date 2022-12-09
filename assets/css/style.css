@@ -805,7 +805,7 @@ video {
   padding-top: 40px;
   transition: all 0.5s ease 0s;
 }
-.services-details:hover h3, .services-details:hover .services-icon {
+.services-details:hover h2, .services-details:hover .services-icon {
   color: #0066cc;
 }
 .row.second-row {
@@ -814,7 +814,7 @@ video {
 .section-head > h2 {
   color: #c01c1c;
 }
-.single-services > h3 {
+.single-services > h2 {
   color: #444;
   font-size: 24px;
   margin-bottom:20px;
@@ -922,7 +922,7 @@ video {
 .work-right-text {
   background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
 }
-.work-right-text h2 {
+.work-right-text h3 {
   color: #fff;
   font-size: 24px;
 }
