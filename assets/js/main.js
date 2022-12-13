@@ -171,7 +171,7 @@
    const removePreloader = () => preloader.remove();
    let preloader = select("#preloader");
    if (preloader) {
-     window.addEventListener("load", () => setTimeout(removePreloader, 1500));
+     window.addEventListener("load", () => setTimeout(removePreloader));
    }
 
 /**
