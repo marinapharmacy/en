@@ -1051,7 +1051,8 @@ video {
   color: #fff;
 }
 .suppliers .suppliers-item .suppliers-img {
-  max-width: 100px;
+  width:115px;
+  height:60px;
   border-radius: 50%;
   border: 6px solid rgba(255, 255, 255, 0.15);
 }
