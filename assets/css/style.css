@@ -1071,6 +1071,7 @@ video {
   height:54px;
   border-radius: 50%;
   border: 6px solid rgba(255, 255, 255, 0.15);
+  margin: 0 auto;
 }
 .suppliers h2 {
   color: #fff;

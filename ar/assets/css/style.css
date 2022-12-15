@@ -849,8 +849,6 @@ video {
 }
 .single-team-member:hover .team-img a:after {
   opacity: 1;
-  width: 360px;
-  height: 360px;
 }
 .single-team-member:hover .team-social-icon {
   top: 45%;
@@ -1043,10 +1041,11 @@ video {
   color: #fff;
 }
 .suppliers .suppliers-item .suppliers-img {
-  width:103px;
-  height:54px;
+  width: 134px;
+  height: 70px;
   border-radius: 50%;
   border: 6px solid rgba(255, 255, 255, 0.15);
+  margin: 0 auto;
 }
 .suppliers h2 {
   color: #fff;
