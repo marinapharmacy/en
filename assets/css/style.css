@@ -867,6 +867,8 @@ video {
 }
 .single-team-member:hover .team-img a:after {
   opacity: 1;
+  width: 360px;
+  height: 360px;
 }
 .single-team-member:hover .team-social-icon {
   top: 45%;
