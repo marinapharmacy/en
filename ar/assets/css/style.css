@@ -893,7 +893,7 @@ video {
   background-position: top center;
   background-attachment: fixed;
   width: 100%;
-  height: auto;
+  max-height: 533px;
   position: relative;
   margin-top: 60px;
 }
