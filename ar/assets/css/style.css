@@ -854,20 +854,8 @@ video {
 }
 .team-img {
   position: relative;
-}
-.team-img > a {
-  display: block;
-}
-.team-img > a::after {
-  background: rgba(0, 0, 0, 0.7);
-  bottom: 0;
-  content: "";
-  height: 100%;
-  left: 0;
-  position: absolute;
-  transition: all 0.5s ease 0s;
-  width: 100%;
-  opacity: 0;
+  width: 360px;
+  height: 360px;
 }
 .team-content {
   padding: 10px 0px;
