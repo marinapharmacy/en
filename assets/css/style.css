@@ -839,26 +839,6 @@ video {
   position: relative;
   overflow: hidden;
 }
-.team-member::before {
-  content: "";
-  display: block;
-  height: 100%;
-  left: 0;
-  margin-right: -15px;
-  padding: 10px;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: -1;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top center;
-  transition: 5s;
-  transform: scale(1);
-}
-.team-member:hover.team-member::before {
-  transform: scale(1.2);
-}
 .single-team-member {
   border: 1px solid #ddd;
   box-shadow: 0px 5px 30px rgba(127, 137, 161, 0.25);
@@ -867,8 +847,6 @@ video {
 }
 .single-team-member:hover .team-img a:after {
   opacity: 1;
-  width: 360px;
-  height: 360px;
 }
 .single-team-member:hover .team-social-icon {
   top: 45%;
@@ -876,8 +854,20 @@ video {
 }
 .team-img {
   position: relative;
-  width: 360px;
-  height: 360px;
+}
+.team-img > a {
+  display: block;
+}
+.team-img > a::after {
+  background: rgba(0, 0, 0, 0.7);
+  bottom: 0;
+  content: "";
+  height: 520px;
+  left: 0;
+  position: absolute;
+  transition: all 0.5s ease 0s;
+  width: 520px;
+  opacity: 0;
 }
 .team-content {
   padding: 10px 0px;
@@ -886,11 +876,6 @@ video {
   color: #444;
   margin-bottom: 1px;
   font-size: 24px;
-}
-.team-content1 > p {
-  color: #444;
-  margin-bottom: 10px;
-  font-size: 14px;
 }
 /*--------------------------------------------------------------
 # Review
