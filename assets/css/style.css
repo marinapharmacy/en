@@ -328,7 +328,8 @@ div#preloader:before {
   float:left;
   margin-top:10px;
   margin-right:10px;
-  max-height: 65px
+  width: 65px;
+  height: 65px;
 }
 @media (max-width: 1025px) {
   #header {
@@ -339,7 +340,8 @@ div#preloader:before {
     font-size: 20px;
   }
   #header .logo img {
-    max-height: 45px
+    width: 45px;
+    height: 45px
   }
 }
 .header-bg {
