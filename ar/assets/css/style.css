@@ -7,7 +7,7 @@
       url('../../../assets/css/fonts/al-jazeera-arabic-bold.woff2') format('woff2'),
       url('../../../assets/css/fonts/al-jazeera-arabic-bold.otf') format('opentype'),
       url('../../../assets/css/fonts/al-jazeera-arabic-bold.eot') format('embedded-opentype'),
-      url('../../../assets/css/fonts/al-jazeera-arabic-bold.ttf/') format('truetype');
+      url('../../../assets/css/fonts/al-jazeera-arabic-bold.ttf') format('truetype');
   font-style: normal;
   font-display: swap;
 }
@@ -338,33 +338,6 @@ div#preloader:before {
   #header .logo img {
     width: 45px;
     height: 45px
-  }
-}
-.header-bg {
-  background: url(../../../assets/img/background/page-header.gif);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top center;
-  padding: 120px 0 60px;
-}
-.header-bg::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.7);
-}
-@media (min-width: 1025px) {
-  .header-bg {
-    background-attachment: fixed;
-  }
-}
-@media (max-width: 1025px) {
-  .header-bg {
-    background-size: contain;
-    margin-top: 85px;
   }
 }
 /*--------------------------------------------------------------
